@@ -32,7 +32,7 @@ O sistema simula o funcionamento de uma loja (Publisher) que notifica seus clien
    Demonstra o funcionamento do padrão, com adição e remoção de clientes e lançamento de produtos.
 
 
-## Estrutura do Projeto
+### Estrutura do Projeto
 
 **Interface base** (Observer): Define o contrato para os Observers.
 
@@ -44,7 +44,7 @@ O sistema simula o funcionamento de uma loja (Publisher) que notifica seus clien
 
 **Classe principal** (Main): Demonstra o uso do padrão Observer com a interação entre a loja e os clientes.
 
-## Benefícios do Padrão Observer
+### Benefícios do Padrão Observer
 
 - **Desacoplamento:** A loja (Publisher) não precisa conhecer os detalhes dos clientes (Observers).  
 - **Flexibilidade:** Permite adicionar ou remover clientes dinamicamente, sem alterar o código da loja.  
