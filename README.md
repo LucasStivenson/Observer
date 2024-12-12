@@ -11,9 +11,9 @@ Este projeto implementa um exemplo prático do padrão **Observer** no contexto 
 ### Exemplo Implementado: Notificação de Lançamento de Produtos
 O sistema simula o funcionamento de uma loja (Publisher) que notifica seus clientes (Observers) sempre que um **novo produto** estiver disponível. Os clientes podem se inscrever (subscribe) ou cancelar a inscrição (unsubscribe) para receber essas notificações.
 
-### **Elementos Principais**
+### Elementos Principais
 
-1. **Loja (Store):**  
+1. **Loja (Store):**
    Representa o Publisher.  
    - Permite que os clientes se inscrevam ou cancelem a inscrição.  
    - Notifica os clientes sobre novos produtos.
@@ -31,9 +31,8 @@ O sistema simula o funcionamento de uma loja (Publisher) que notifica seus clien
 5. **Classe Principal (Main):**  
    Demonstra o funcionamento do padrão, com adição e remoção de clientes e lançamento de produtos.
 
----
 
-## **Estrutura do Projeto**
+## Estrutura do Projeto
 
 **Interface base** (Observer): Define o contrato para os Observers.
 
@@ -45,15 +44,11 @@ O sistema simula o funcionamento de uma loja (Publisher) que notifica seus clien
 
 **Classe principal** (Main): Demonstra o uso do padrão Observer com a interação entre a loja e os clientes.
 
----
-
-## **Benefícios do Padrão Observer**
+## Benefícios do Padrão Observer
 
 - **Desacoplamento:** A loja (Publisher) não precisa conhecer os detalhes dos clientes (Observers).  
 - **Flexibilidade:** Permite adicionar ou remover clientes dinamicamente, sem alterar o código da loja.  
 - **Escalabilidade:** Facilita a adição de novos tipos de Observers sem grandes modificações.
-
----
 
 ### Arquivo PDF da apresentação
 [Aula 2 – Padrões de Comportamentais.pdf](//)
